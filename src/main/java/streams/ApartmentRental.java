@@ -27,7 +27,6 @@ public class ApartmentRental {
                .toList();
     }
 
-
     public boolean isThereApartmentWithBathroomType(BathRoomType bathRoomType) {
         return apartments
                 .stream()
